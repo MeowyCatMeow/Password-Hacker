@@ -15,7 +15,7 @@ from datetime import datetime
 
 def get_name_variants():
     name_vars = []
-    with open(r"C:\Users\linyu\Downloads\logins.txt", 'r', encoding='utf-8') as f:
+    with open(r"logins.txt", 'r', encoding='utf-8') as f:
         names = f.read().strip('\n').splitlines()
         # print(names)
         for name in names:
